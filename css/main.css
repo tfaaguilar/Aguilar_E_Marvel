@@ -36,7 +36,7 @@ header {
         background-color: black;
 }
 
-.characters { list-style: none;}
+.characters { list-style-type: none;}
 .characters li {display: inline-block;}
 
 .characters li img {
@@ -44,6 +44,25 @@ header {
     cursor: pointer;
 }
 
+article { padding: 20px;}
+
+/* select the h3 tag inside the article tag on the pago */
+/* a selector followed by a space and ther ANOTHER selector gets a reference to the parent element and the the child element or elements inside of it */
+
+article h3 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+/*select the p tag inside the article tag on the page */
+article p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+}
 
 /* footer rules here */
 footer{
