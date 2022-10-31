@@ -55,13 +55,30 @@ header {
   cursor: pointer;
 }
 
+.red_bumper {
+  width: 100%;
+  height: 6px;
+  background-color: red;
+
+  transition: height 0.2s ease;
+
+  position: absolute;
+}
+
+.characters li:hover .red_bumper {
+  height: 250px;
+}
+
 article {
   padding: 20px;
 }
 
 .characters li h5 {
+  position: relative;
   color: white;
   padding: 12px 8px;
+
+  z-index: 500;
 }
 
 .characters li a {
@@ -143,6 +160,8 @@ footer {
 
   background-size: 55vh; /* 55% of the viewport heitght */
   background-position: 40px bottom;
+
+  z-index: 500;
 
   display: none;
 }
