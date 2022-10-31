@@ -1,60 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css" />
 
     <title>Marvel Character Build</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1 class="hidden">All about the Team</h1>
-        <img src="images/images/logo.svg" alt="marvel logo" id="main-logo">
+      <h1 class="hidden">All about the Team</h1>
+      <img src="images/images/logo.svg" alt="marvel logo" id="main-logo" />
     </header>
 
     <main>
-        <main>
-            <nav id="character_nav">
-                <ul class="characters">
-                    <li><img src="images/images/cap.jpeg" alt="capitain america"></li>
-                    <li><img src="images/images/carol.jpeg" alt="capitain marvel"></li>
-                    <li><img src="images/images/clint.jpeg" alt="hawkeye"></li>
-                    <li><img src="images/images/hulk.jpeg" alt="hulk"></li>
-                    <li><img src="images/images/thor.jpeg" alt="thor"></li>
-                    <li><img src="images/images/widow.jpeg" alt="widow"></li>
-                </ul>
-            </nav>
+      <main>
+        <nav id="character_nav">
+          <ul class="characters">
+            <li>
+              <a href="#lightbox">
+                <div class="sprite" id="capitan america"></div>
+                <div class="red_bumper"></div>
+                <h5>Capitan America</h5>
+              </a>
+              <!--<img src="images/images/cap.jpeg" alt="capitain america" />-->
+            </li>
 
-            <article>
-                <h3>Choose your Hero!</h3>
-                    <p>Use your mouse to hover / click to discover more about each Marvel Hero</p>
-            </article>
-        </main>
+            <li>
+              <a href="#lightbox">
+                <div class="sprite" id="carol"></div>
+                <div class="red_bumper"></div>
+                <h5>carol</h5>
+              </a>
+              <!-- <img src="images/images/carol.jpeg" alt="capitain marvel" />-->
+            </li>
+
+            <li>
+              <a href="#lightbox">
+                <div class="sprite" id="haweye"></div>
+                <div class="red_bumper"></div>
+                <h5>Haweye</h5>
+              </a>
+              <!--img src="images/images/clint.jpeg" alt="hawkeye" />-->
+            </li>
+
+            <li>
+              <a href="#lightbox">
+                <div class="sprite" id="hulk"></div>
+                <div class="red_bumper"></div>
+                <h5>Hulk</h5>
+              </a>
+              <!--<img src="images/images/hulk.jpeg" alt="hulk" />-->
+            </li>
+
+            <li>
+              <a href="#lightbox2">
+                <div class="sprite" id="thor"></div>
+                <div class="red_bumper"></div>
+                <h5>thor</h5>
+              </a>
+              <!--<img src="images/images/thor.jpeg" alt="thor" />-->
+            </li>
+
+            <li>
+              <a href="lightbox">
+                <div class="sprite" id="widoe"></div>
+                <div class="red_bumper"></div>
+                <h5>widow</h5>
+              </a>
+              <!--<img src="images/images/widow.jpeg" alt="widow" />-->
+            </li>
+          </ul>
+        </nav>
+
+        <article>
+          <h3>Choose your Hero!</h3>
+          <p>
+            Use your mouse to hover / click to discover more about each Marvel
+            Hero
+          </p>
+        </article>
+      </main>
     </main>
 
     <footer class="sticky_footer">
-        <h3>All images &copy; Marvel</h3>
+      <h3>All images &copy; Marvel</h3>
     </footer>
 
     <!--lightbox goes here-->
     <section class="lightbox" id="lightbox">
-        <a href="" class="lightbox_close" >X</a>
+      <a href="" class="lightbox_close">X</a>
 
-        <article>
-            <h3 class="lb_heading">Capitan America - The First Avenger</h3>
+      <article>
+        <h3 class="lb_heading">Capitan America - The First Avenger</h3>
 
-            <p class="lb_text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus expedita eius assumenda omnis porro natus illo deserunt rem animi aperiam. Facilis illo velit alias earum distinctio eum libero blanditiis dolor!
-            </p> 
+        <p class="lb_text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+          expedita eius assumenda omnis porro natus illo deserunt rem animi
+          aperiam. Facilis illo velit alias earum distinctio eum libero
+          blanditiis dolor!
+        </p>
 
-            <p class="lb_text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore accusamus iste perspiciatis mollitia deleniti ipsum similique nulla quaerat culpa qui ipsam obcaecati at corrupti laborum ducimus, quos, amet error? Atque?
-            </p>
-
-        </article>
+        <p class="lb_text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
+          accusamus iste perspiciatis mollitia deleniti ipsum similique nulla
+          quaerat culpa qui ipsam obcaecati at corrupti laborum ducimus, quos,
+          amet error? Atque?
+        </p>
+      </article>
     </section>
-</body>
+
+    <section class="lightbox" id="lightbox2">
+      <a href="" class="lightbox_close">X</a>
+
+      <article>
+        <h3 class="lb_heading">Thor Odinson - The Asgardian</h3>
+
+        <p class="lb_text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+          expedita eius assumenda omnis porro natus illo deserunt rem animi
+          aperiam. Facilis illo velit alias earum distinctio eum libero
+          blanditiis dolor!
+        </p>
+
+        <p class="lb_text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
+          accusamus iste perspiciatis mollitia deleniti ipsum similique nulla
+          quaerat culpa qui ipsam obcaecati at corrupti laborum ducimus, quos,
+          amet error? Atque?
+        </p>
+      </article>
+    </section>
+  </body>
 </html>
